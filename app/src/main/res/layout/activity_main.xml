@@ -12,10 +12,16 @@
     tools:context="com.edu_braille.hijaiyah.MainActivity">
 
     <Button
-        android:id="@+id/btnRecord"
+        android:id="@+id/btnStart"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Rekam"/>
+        android:text="Rekam"/>\
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"/>
 
     <Button
         android:id="@+id/btnRekam"
